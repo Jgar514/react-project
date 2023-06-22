@@ -12,7 +12,7 @@ function Lights() {
 }
 
 const Room = () => {
-	const room = useGLTF("/roomglb/june20.glb");
+	const room = useGLTF("/june20.glb");
 	// useHelper(spotLight, SpotLightHelper, "teal");
 	return (
 		<mesh receiveShadow>

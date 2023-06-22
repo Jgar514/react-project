@@ -5,7 +5,7 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../Loader";
 
 const Spinning = () => {
-	const spinning = useGLTF("./planet/june21.glb");
+	const spinning = useGLTF("./june21.glb");
 
 	return <primitive object={spinning.scene} scale={0.5} position-y={0} rotation-y={0} />;
 };
