@@ -6,6 +6,7 @@ import logo from "./logo.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import moda from "./moda.png";
 
 // import css from "./tech/css.png";
 // import docker from "./tech/docker.png";
@@ -27,8 +28,9 @@ import close from "./close.svg";
 // import tesla from "./company/tesla.png";
 
 import joshgarvey1 from "./joshgarvey1.png";
+import mendix from "./mendix.png";
 // import jobit from "./jobit.png";
 //import tripguide from "./tripguide.png.icloud";
 
 // export { logo, backend, creator, mobile, web, github, menu, close, css, docker, figma, git, html, javascript, mongodb, nodejs, reactjs, redux, tailwind, typescript, threejs, meta, shopify, starbucks, tesla, joshgarvey1, jobit };
-export { logo, github, joshgarvey1, close, menu };
+export { logo, github, joshgarvey1, close, menu, mendix, moda };

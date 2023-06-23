@@ -51,16 +51,16 @@ const Works = () => {
 	return (
 		<>
 			<motion.div variants={textVariant()}>
-				<p className={styles.sectionSubText}>My Projects</p>
+				{/* <p className={styles.sectionSubText}>My Projects</p> */}
 				<h2 className={styles.sectionHeadText}>Projects.</h2>
 			</motion.div>
 
-			<div className="w-full flex">
+			{/* <div className="w-full flex">
 				<motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]">
 					idk
-					{/* In this course, you'll learn the following: - ThreeJS - a powerful 3D graphics library for rendering and animating the 3D model - React Three Fiber - a popular library for creating 3D graphics with ThreeJS in React - TailwindCSS - a popular utility-first CSS styling framework. */}
+					In this course, you'll learn the following: - ThreeJS - a powerful 3D graphics library for rendering and animating the 3D model - React Three Fiber - a popular library for creating 3D graphics with ThreeJS in React - TailwindCSS - a popular utility-first CSS styling framework.
 				</motion.p>
-			</div>
+			</div> */}
 
 			<div className="mt-20 flex flex-wrap gap-7">
 				{projects.map((project, index) => (
