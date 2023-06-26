@@ -9,13 +9,12 @@ const Hero = () => {
 			className={`relative w-full h-screen mx-auto bg-black
 		`}
 		>
-			<MyLife />
-
 			<div className={`${styles.paddingX} absolute inset-0 top-[340px] md:top-[100px] max-w-7xl mx-auto flex flex-row items-start gap-5`}>
 				<div className="flex flex-col justify-center items-center mt-5">
 					<div className="w-5 h-5 rounded-full bg-[#686C45]" />
 					<div className="w-1 sm:h-80 h-40 bg-[#686C45]" />
 				</div>
+
 				<div>
 					<h1 className={`${styles.heroHeadText} text-white`}>
 						<span className="text-[#686C45]">Projects</span>
@@ -27,7 +26,7 @@ const Hero = () => {
 				</div>
 			</div>
 			{/* <div className="w-full h-1/2 justify-end top-300"> */}
-
+			<MyLife />
 			{/* </div> */}
 			<div className="absolute xs:bottom-10 bottom-10 w-full flex justify-center items-center">
 				<a href="#about">
