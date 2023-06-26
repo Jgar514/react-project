@@ -35,21 +35,19 @@ const Room = () => {
 
 const MyLife = () => {
 	return (
-		<Canvas frameLoop="demand" shadows camera={{ position: [0, 24, 28], fov: 40 }} gL={{ preserveDrawingBuffer: true }}>
-			<Suspense fallback={<CanvasLoader />}>
-				<OrbitControls
-					enableZoom={false}
-					//maxPolarAngle={Math.PI / 2}
-					//minPolarAngle={Math.PI / 2}
-				/>
-				<gridHelper args={[20, 20, 0xff0000, "#686C45"]} />
-				{/* <gridHelper size={[80]} /> */}
-				<axesHelper args={[25]} />
+		<div className="relative h-[65%] md:h-screen">
+			<Canvas frameLoop="demand" shadows camera={{ position: [0, 24, 28], fov: 40 }} gL={{ preserveDrawingBuffer: true }}>
+				<Suspense fallback={<CanvasLoader />}>
+					<OrbitControls enableZoom={false} enableDamping={true} />
+					<gridHelper args={[20, 20, 0xff0000, "#686C45"]} />
+					{/* <gridHelper size={[80]} /> */}
+					<axesHelper args={[25]} />
 
-				<Room />
-			</Suspense>
-			<Preload all />
-		</Canvas>
+					<Room />
+				</Suspense>
+				<Preload all />
+			</Canvas>
+		</div>
 	);
 };
 
