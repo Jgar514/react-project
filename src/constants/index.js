@@ -158,6 +158,7 @@ export const navLinks = [
 const projects = [
 	{
 		name: "JoshuaGarvey.com",
+		preview: "//Homebase for my internet presense",
 		description: "A 3D immersive scene where a camera is created and follows linear curves when user scrolls down. Wanted a simple design similar to a business card that was the home base to my contact information while also adding a complex user experience to demonstrate capibalities with web development",
 		tags: [
 			{
@@ -174,15 +175,16 @@ const projects = [
 			},
 		],
 		image: joshgarvey1,
-		source_code_link: "https://github.com/",
+		source_code_link: "https://github.com/Jgar514/JoshandEllie/blob/main/README.md",
 	},
 	{
-		name: "Mendix",
+		name: "removeSnow()",
+		preview: "//Snow Plow Company software",
 		description: "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
 		tags: [
 			{
 				name: "react",
-				color: "blue-text-gradient",
+				color: "white",
 			},
 			{
 				name: "restapi",
@@ -194,10 +196,11 @@ const projects = [
 			},
 		],
 		image: mendix,
-		source_code_link: "https://github.com/",
+		source_code_link: "https://github.com/Jgar514/removeSnow",
 	},
 	{
 		name: "MODA",
+		preview: "//Mom and Dad software",
 		description: "A dual theme enterprise software application for parents to stay on top of raising their kids. ",
 		tags: [
 			{

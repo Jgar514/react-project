@@ -1,4 +1,4 @@
-import logo from "./logo.png";
+import logo1 from "./logo1.png";
 // import backend from "./backend.png";
 // import creator from "./creator.png";
 // import mobile from "./mobile.png";
@@ -33,4 +33,4 @@ import mendix from "./mendix.png";
 //import tripguide from "./tripguide.png.icloud";
 
 // export { logo, backend, creator, mobile, web, github, menu, close, css, docker, figma, git, html, javascript, mongodb, nodejs, reactjs, redux, tailwind, typescript, threejs, meta, shopify, starbucks, tesla, joshgarvey1, jobit };
-export { logo, github, joshgarvey1, close, menu, mendix, moda };
+export { logo1, github, joshgarvey1, close, menu, mendix, moda };
