@@ -35,7 +35,7 @@ const Room = () => {
 
 const MyLife = () => {
 	return (
-		<div className="relative h-[65%] md:h-screen">
+		<div className="relative h-[50%] md:h-screen">
 			<Canvas frameLoop="demand" shadows camera={{ position: [0, 24, 28], fov: 40 }} gL={{ preserveDrawingBuffer: true }}>
 				<Suspense fallback={<CanvasLoader />}>
 					<OrbitControls enableZoom={false} enableDamping={true} />
