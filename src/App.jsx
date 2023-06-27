@@ -6,11 +6,11 @@ const App = () => {
 	return (
 		<BrowserRouter>
 			<div
-				className="relative z-0 bg-[	
+				className="relative overflow-hidden z-0 bg-[	
 #8c92ac]"
 			>
 				<div
-					className="bg-[	
+					className="overflow-hidden bg-[	
 #8c92ac]bg-cover bg-no-repeat bg-center"
 				>
 					<Navbar />
