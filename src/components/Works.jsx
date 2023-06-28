@@ -9,7 +9,7 @@ import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
-const ProjectCard = ({ index, name, preview, description, tags, image, source_code_link }) => {
+const ProjectCard = ({ index, name, preview, description, tags, image, source_code_link, show_project_link }) => {
 	return (
 		<motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
 			<Tilt
@@ -20,7 +20,7 @@ const ProjectCard = ({ index, name, preview, description, tags, image, source_co
 				}}
 				className="bg-[#000000] p-5 rounded-2x1 sm:w-[360px] w-full"
 			>
-				<div className="relative w-full h-[230px]">
+				<div onClick={() => window.open(show_project_link, "_blank")} className="relative w-full h-[230px]">
 					<div className="mt-3">
 						<h3 className="text-white font-bold text-[26px]">{name}</h3>
 						<p className="mt-4 ml-4 text-secondaryred text-[16px]">{preview}</p>

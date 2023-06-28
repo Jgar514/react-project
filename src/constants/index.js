@@ -158,24 +158,37 @@ export const navLinks = [
 const projects = [
 	{
 		name: "JoshuaGarvey.com",
-		preview: "//Homebase for my internet presense",
+		preview: "//Homebase for my internet presence",
 		description: "A 3D immersive scene where a camera is created and follows linear curves when user scrolls down. Wanted a simple design similar to a business card that was the home base to my contact information while also adding a complex user experience to demonstrate capibalities with web development",
 		tags: [
 			{
-				name: "react",
-				color: "blue-text-gradient",
+				name: "reactjs",
+				color: "white",
 			},
 			{
-				name: "mongodb",
-				color: "green-text-gradient",
+				name: "React-three/fiber",
+				color: "white",
 			},
 			{
-				name: "tailwind",
-				color: "pink-text-gradient",
+				name: "tailwindcss",
+				color: "white",
+			},
+			{
+				name: "blender",
+				color: "white",
+			},
+			{
+				name: "react-three/drei",
+				color: "white",
+			},
+			{
+				name: "theatre.js",
+				color: "white",
 			},
 		],
 		image: joshgarvey1,
 		source_code_link: "https://github.com/Jgar514/JoshandEllie/blob/main/README.md",
+		show_project_link: "https://joshuagarvey.com/",
 	},
 	{
 		name: "removeSnow()",
@@ -183,20 +196,25 @@ const projects = [
 		description: "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
 		tags: [
 			{
-				name: "react",
+				name: "Mendix",
 				color: "white",
 			},
 			{
-				name: "restapi",
-				color: "green-text-gradient",
+				name: "Microflows",
+				color: "white",
 			},
 			{
-				name: "scss",
-				color: "pink-text-gradient",
+				name: "nanoflows",
+				color: "white",
+			},
+			{
+				name: "Databases-OQL",
+				color: "white",
 			},
 		],
 		image: mendix,
 		source_code_link: "https://github.com/Jgar514/removeSnow",
+		show_project_link: "https://youtu.be/mOTKgQKJZSM?t=169",
 	},
 	{
 		name: "MODA",
@@ -204,20 +222,21 @@ const projects = [
 		description: "A dual theme enterprise software application for parents to stay on top of raising their kids. ",
 		tags: [
 			{
-				name: "nextjs",
-				color: "blue-text-gradient",
+				name: "Material UI",
+				color: "white",
 			},
 			{
-				name: "supabase",
-				color: "green-text-gradient",
+				name: "NIVO",
+				color: "white",
 			},
 			{
-				name: "css",
-				color: "pink-text-gradient",
+				name: "React",
+				color: "white",
 			},
 		],
 		image: moda,
-		source_code_link: "https://github.com/",
+		source_code_link: "https://github.com/Jgar514/MODA/blob/main/README.md",
+		show_project_link: "https://github.com/Jgar514/MODA/blob/main/README.md",
 	},
 ];
 
